@@ -1,4 +1,4 @@
-# 🧬 PharmaGuard — AI-Powered Pharmacogenomic Risk Prediction System
+# 🧬 GeneRx — AI-Powered Pharmacogenomic Risk Prediction System
 
 > **HealthTech Hackathon 2025** | Precision Medicine · CPIC v2024.1 · Client-Side · Schema-Validated
 
@@ -15,13 +15,13 @@
 
 The clinical barrier: no accessible, explainable, real-time tool exists to translate raw VCF genomic data into actionable drug risk predictions at point-of-care.
 
-**PharmaGuard solves this.**
+**GeneRx solves this.**
 
 ---
 
 ## Solution Overview
 
-PharmaGuard is a fully client-side AI web application that:
+GeneRx is a fully client-side AI web application that:
 
 1. **Parses authentic VCF v4.2 files** — extracting pharmacogenomic variants from INFO tags
 2. **Identifies variants across 6 critical genes**: CYP2D6, CYP2C19, CYP2C9, SLCO1B1, TPMT, DPYD
@@ -127,10 +127,6 @@ Every analysis produces a schema-validated report:
 
 ## Quick Start
 
-### Online (No Install Required)
-
-Visit **[ai-genom-insight.lovable.app](https://ai-genom-insight.lovable.app)**
-
 1. Download the [sample VCF file](public/sample.vcf) (multi-gene test case)
 2. Upload via drag-and-drop
 3. Select drugs: Codeine, Warfarin, Clopidogrel, Simvastatin, Azathioprine, Fluorouracil
@@ -141,8 +137,8 @@ Visit **[ai-genom-insight.lovable.app](https://ai-genom-insight.lovable.app)**
 
 ```bash
 # Clone
-git clone <repo-url>
-cd pharmaguard
+git clone [<repo-url>](https://github.com/mohdfahad0408/gene-Rx)
+cd gene-rx
 
 # Install
 npm install
